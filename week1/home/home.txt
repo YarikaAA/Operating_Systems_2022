@@ -1,0 +1,12 @@
+total 44
+drwxr-xr-x 2 yarika yarika 4096 Sep  2 23:16 Videos
+drwxr-xr-x 2 yarika yarika 4096 Sep  2 23:16 Templates
+drwxr-xr-x 2 yarika yarika 4096 Sep  2 23:16 Public
+drwxr-xr-x 2 yarika yarika 4096 Sep  2 23:16 Pictures
+drwxr-xr-x 2 yarika yarika 4096 Sep  2 23:16 Music
+drwxr-xr-x 2 yarika yarika 4096 Sep  2 23:16 Downloads
+drwxr-xr-x 2 yarika yarika 4096 Sep  2 23:16 Documents
+drwxr-xr-x 2 yarika yarika 4096 Sep  2 23:16 Desktop
+drwx------ 5 yarika yarika 4096 Sep  3 15:10 snap
+drwxrwxr-x 2 yarika yarika 4096 Sep  3 17:02 something
+drwxrwxr-x 4 yarika yarika 4096 Sep  3 18:53 week1

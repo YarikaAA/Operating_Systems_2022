@@ -1,0 +1,11 @@
+    1  whoami
+    2  hostname
+    3  man whoami
+    4  ls
+    5  ls -h -l | grep p
+    6  mkdir ~/something
+    7  cd ~/something
+    8  cd
+    9  mkdir ~/week1
+   10  cd ~/week1
+   11  history > ex2.txt
