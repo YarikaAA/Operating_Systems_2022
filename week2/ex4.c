@@ -29,28 +29,31 @@ int count(char *str, char c){
     return res;
 }
 
-void countAll(char *str, char *str_out){
+void countAll(char *str, char str_out[1000]){
 
     int j = 0;
 
     for (int i = 0; i < strlen(str); ++i){
+
+        if(i != strlen(str) - 1){
+            printf("%c: %d, ", str[i], count(str, str[i]));
+        }
+        else{
+            printf("%c: %d", str[i], count(str, str[i]));
+        }
         
-        strcat(str_out, str[0] + "");
-        strcat(str_out, ": ");
-        strcat(str_out, count(str, str[i]) + "");
     }
 
 }
  
 int main(int argc, char *argv[]){
     
-    char *str = "along the tt";
+    char str[10000];
     char str_out[10000];
- 
+    
+    scanf("%s", str);
  
     countAll(str, str_out);
-    printf("%s\n", str);
-    printf("%s\n", str_out);
 
     return 0;
 }
