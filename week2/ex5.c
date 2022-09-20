@@ -19,7 +19,7 @@ void Tribo(int n){
     int first = 0, second = 1, third = 1;
     int curr = first + second + third;
  
-    for (int i = 3; i < n; i++){
+    for (int i = 3; i <= n; i++){
         curr = first + second + third;
         first = second;
         second = third;
