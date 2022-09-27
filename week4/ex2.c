@@ -23,16 +23,16 @@ int main(void){
 	srand (time(NULL));
 
 	//size of vectors
-	int l = 120;
+	int vector_size = 120;
 
 	//file connection
 	
 	
 	//declaretion of 2 vectors
-	int u[l], v[l];
+	int u[vector_size], v[vector_size];
 
 	//just fill 2 vectors with random values from 0 to 99
-	for (int i = 0; i < l; ++i){
+	for (int i = 0; i < vector_size; ++i){
 		u[i] = rand() % 100;
 		v[i] = rand() % 100;
 	}
@@ -41,14 +41,14 @@ int main(void){
 	int n;
 	scanf("%d", &n);
 
-	int t;
+	//number for distributed processes
+	int dist_process;
 
 	//to equally separate elements 
 	if(l % n == 0){
-		t = l / n;
+		dist_process = vector_size / n;
 	}
 
-	printf("%d\n", t);
 	//array of n processes
 	pid_t pids[n];
 
@@ -59,10 +59,10 @@ int main(void){
 		if(pids[i] == 0){
 			//open file to write a results of prcesses
 			FILE * f = fopen("temp.txt", "a");
-      		fprintf(f, "%d\n", dotprod(u, v, i * t, i * t + t));
+      		fprintf(f, "%d\n", dotprod(u, v, i * dist_process, i * dist_process + dist_process));
       		printf("ghg\n");
       		fclose(f);
-			//printf("%d, i = %d\n", dotprod(&u, &v, i * t, i * t + t), y);
+			//printf("%d, i = %d\n", dotprod(&u, &v, i * dist_process, i * dist_process + dist_process), y);
 		}
 		else{
 			return(EXIT_SUCCESS);
