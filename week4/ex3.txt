@@ -1,0 +1,14 @@
+Report:
+
+	'Pstree' shows the running processes as a tree,  and visually shows the hierarchy.
+	
+	Numbers of processes in each case are different. In case of enougt time for execute we
+	will have 2^n processes. 
+	
+	For 1st case:
+		n = 3 => We must have 8 processes, but some time processes processes do not have time to create or complete. (We can check them with their IDs)
+		
+	For 2nd case:
+		n = 5 => We must have 32 processes, but some time processes processes do not have time to create or complete. (We can check them with their IDs)
+		
+		
