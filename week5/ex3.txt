@@ -1,0 +1,35 @@
+For n = 10000000 m = 1, numbers of primes number is 
+664579
+
+real	0m6.108s
+user	0m5.640s
+sys	0m0.049s
+
+For n = 10000000 m = 2, numbers of primes number is 
+664579
+
+real	0m5.487s
+user	0m5.403s
+sys	0m0.041s
+
+For n = 10000000 m = 4, numbers of primes number is 
+664579
+
+real	0m5.311s
+user	0m5.242s
+sys	0m0.027s
+
+For n = 10000000 m = 10, numbers of primes number is 
+664579
+
+real	0m5.460s
+user	0m5.400s
+sys	0m0.014s
+
+For n = 10000000 m = 100, numbers of primes number is 
+664579
+
+real	0m5.340s
+user	0m5.287s
+sys	0m0.011s
+
