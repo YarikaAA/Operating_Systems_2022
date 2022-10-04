@@ -1,6 +1,0 @@
-	
-	In this program we consider the number of primes in the range up to n.
-
-	In this subtask, all the numbers are distributed in pieces. That is, for example, the first process extends numbers from 1 to 10 when the last receives numbers from 1,000,000 to 2,000,000. 
-
-	As a result, this increases runtime (because the runtime with large numbers is much higher).

@@ -1,9 +1,0 @@
-	
-	In this program we consider the number of primes in the range up to n.
-
-	In this subtask, all numbers are distributed evenly by processes. That is, for example, the first process bypasses the numbers: 1, 4; the next receives the numbers: 2, 5; third 3, 6; and so on.
-
-	As a result, the time of each process is uniform. 
-
-	The execution time of 4 exercise is less than 3. 
-	But the difference is not significant, we can say that the execution time in 4 tasks is more evenly distributed.
