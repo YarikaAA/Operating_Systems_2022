@@ -1,0 +1,32 @@
+For arrival time : 0 3 2 9
+For burst time : 2 16 8 1
+
+From ex1:
+
+  Process Arrival Time    Burst Time      Completion Time Turn Around Time        Waiting Time
+   1               0               2               2               2               0
+   3               2               8               10              8               0
+   2               3               16              26              23              7
+   4               9               1               27              18              17
+   Average Turn Around Time: 12.75
+   Average Waiting Time: 6.00
+    
+    
+From ex2: 
+
+  Process Arrival Time    Burst Time      Finish Time     Turnaround Time Waiting Time
+  1               0               2               2               2               0
+  3               2               8               10              8               0
+  4               9               1               11              2               1
+  2               3               16              27              24              8
+  Average Turn Around Time: 9.00
+  Average Waiting Time: 2.25
+
+
+  Compared to the harmful time is reduced, because SJF is more focused on the choice of the 
+minimum interval therefore time is less. 
+
+  In the first case, the sorting occurs at the time of arrival, when in the second case, sorting by minimum burst time but
+  taking into account arrival time.
+  
+  
