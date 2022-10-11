@@ -98,8 +98,24 @@ void sort(int *pInt, int *pInt1, int *pInt2, int n) {
                     pInt2[j] = temp;
                 }
             }
+
+            if(pInt1[i] > pInt1[j]) {
+                if (pInt[i] + pInt1[i] > pInt[j] + pInt1[j]) {
+                    int temp = pInt[i];
+                    pInt[i] = pInt[j];
+                    pInt[j] = temp;
+
+                    temp = pInt1[i];
+                    pInt1[i] = pInt1[j];
+                    pInt1[j] = temp;
+
+                    temp = pInt2[i];
+                    pInt2[i] = pInt2[j];
+                    pInt2[j] = temp;
+                }
+            }
+
         }
     }
 }
-
 
