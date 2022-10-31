@@ -1,0 +1,3 @@
+The physical address simply specifies the location of the data on the RAM chips themselves. On actual chips, there is information that we can access.
+
+The address of a virtual page table can be utilized to transform a virtual address to a physical address using a memory management unit that maps virtual addresses to physical memory addresses. When an application addresses a space that doesn't exist in physical memory, the device recovers the surface of the address space from virtual memory.
