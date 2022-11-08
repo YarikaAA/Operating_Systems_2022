@@ -1,0 +1,15 @@
+Page number: 10
+Hit = 10 
+Miss = 990 
+Hit/Miss ratio = 0.0101
+
+Page number: 50
+Hit = 51 
+Miss = 949 
+Hit/Miss ratio = 0.0537
+
+Page number: 100
+Hit = 94 
+Miss = 906 
+Hit/Miss ratio = 0.1038
+
