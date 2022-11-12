@@ -1,0 +1,8 @@
+mode of '_ex3.txt' retained as 0664 (rw-rw-r--)
+mode of '_ex3.txt' changed from 0664 (rw-rw-r--) to 0767 (rwxrw-rwx)
+mode of '_ex3.txt' changed from 0767 (rwxrw-rwx) to 0777 (rwxrwxrwx)
+
+Answers:
+660 sets owner=rw- group=rw- other=---
+775 sets owner=rwx group=rwx other=-wx
+777 sets owner=rwx group=rwx other=rwx
