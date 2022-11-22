@@ -1,0 +1,4 @@
+lib64	file2.txt	.	ex2.out	file1.txt	bin	..	lib	
+
+webfiles	lost+found	etc	lib32	usr	sbin	swapfile	mnt	lib64	dev	libx32	snap	.	sys	tmp	boot	proc	cdrom	media	opt	bin	home	srv	root	..	run	lib	var	
+
